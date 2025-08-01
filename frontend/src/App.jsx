@@ -1,14 +1,10 @@
 import './App.css'
-import Front from "./firstpage.jsx"
-import Gymmemer from "./gymmember.jsx" // Import your gymmemer component
-import { Routes, Route } from "react-router-dom"
+import Front from "./frontpage.jsx"
+
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Front />} />
-      <Route path="/gymmember" element={<Gymmemer />} />
-    </Routes>
+    <Front/>
   )
 }
 
