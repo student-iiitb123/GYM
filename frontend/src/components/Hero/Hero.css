@@ -1,0 +1,44 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 700px; /* adjust as needed */
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(70%); /* darken image so text stands out */
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.hero-overlay h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.hero-overlay button {
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  background-color: #ff6600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-overlay button:hover {
+  background-color: #e65c00;
+}
