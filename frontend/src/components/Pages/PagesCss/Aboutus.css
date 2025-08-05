@@ -1,0 +1,10 @@
+.mainimage{
+    width:960px;
+    height:340px;
+}
+h1{
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    margin-left: 300px;
+}
