@@ -1,10 +1,9 @@
 import React from 'react';
 import './Hero.css';  // Make sure to create this file
-
 const Hero = () => {
   return (
     <section className="hero">
-      <img
+      <img 
         src="Gym.jpg" // replace with your image path or URL
         alt="Gym Workout"
         className="hero-image"
